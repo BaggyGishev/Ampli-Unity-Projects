@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Projects/Dwarf/Scenes/Dungeon.unity
-    guid: c234f62106cec5e44a1122ede7fb3415
-  - enabled: 1
     path: Assets/_Projects/Dwarf/Scenes/Surface.unity
     guid: 5ba736abfba55864a8047fa3b5854acc
+  - enabled: 1
+    path: Assets/_Projects/Dwarf/Scenes/Dungeon.unity
+    guid: c234f62106cec5e44a1122ede7fb3415
   m_configObjects: {}
