@@ -1,11 +1,13 @@
 # Ampli Unity Projects
 
+<img align="right" width="256" alt="Ampli Logo" src="https://github.com/BaggyGishev/Ampli-Unity-Projects/blob/main/Resources/icon-pulse.png?raw=true">
+
 Teaching materials for [Ampli](https://ampli.com.ua/).
 
-## Projects include:
-* Working prototypes;
-* Empty scenes for developing demonstations;
-* Scripts;
+## Projects include
+* Working prototypes
+* Empty scenes for developing demonstations
+* Scripts
 * Resources from asset store
 
 ## Some assets from [Unity Asset Store](https://assetstore.unity.com/)
