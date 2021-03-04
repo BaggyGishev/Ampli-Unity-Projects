@@ -1,6 +1,8 @@
 # Ampli Unity Projects
 
+<a href="https://ampli.com.ua/">
 <img align="right" width="256" alt="Ampli Logo" src="https://github.com/BaggyGishev/Ampli-Unity-Projects/blob/main/Resources/icon-pulse.png?raw=true">
+</a>
 
 Teaching materials for [Ampli](https://ampli.com.ua/).
 
