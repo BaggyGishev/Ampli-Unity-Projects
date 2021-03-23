@@ -1,4 +1,5 @@
 # Ampli Unity Projects
+### Made with **Unity 2020.2.1f1**
 
 <a href="https://ampli.com.ua/">
 <img align="right" width="256" alt="Ampli Logo" src="https://github.com/BaggyGishev/Ampli-Unity-Projects/blob/main/Resources/icon-pulse.png?raw=true">
