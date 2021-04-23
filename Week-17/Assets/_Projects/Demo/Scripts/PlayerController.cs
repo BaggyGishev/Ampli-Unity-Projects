@@ -1,16 +1,24 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
     public float jumpForce;
+    public float dmgPushForce;
 
     [Header("GroundCheck")]
     public Transform checkPoint;
     public float checkRadius;
     public LayerMask whatIsGround;
 
+    [Header("UI")]
+    public Image[] heartImages;
+    public Sprite fullHealthSprite;
+    public Sprite emptyHealthSprite;
+
+    int _health = 3;
     float _hInput;
     float _rawInput;
     bool _isGrounded = true;
@@ -35,6 +43,9 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
             Jump();
+
+        if (transform.position.y < -30f)
+            FindObjectOfType<GameManager>().Restart();
 
         FlipSprite();
         HandleAnimation();
@@ -77,6 +88,18 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetBool("IsGrounded", _isGrounded);
         _animator.SetBool("IsRunning", Mathf.Abs(_rawInput) > 0f);
+    }
+
+    public void GetDamage(Vector2 pushDir)
+    {
+        _health--;
+        _rb.AddForce(pushDir.normalized * dmgPushForce, ForceMode2D.Impulse);
+
+        for (int i = 0; i < heartImages.Length; i++)
+            heartImages[i].sprite = _health >= (i + 1) ? fullHealthSprite : emptyHealthSprite;
+
+        if (_health < 0)
+            FindObjectOfType<GameManager>().Restart();
     }
 
     private void OnDrawGizmos()
