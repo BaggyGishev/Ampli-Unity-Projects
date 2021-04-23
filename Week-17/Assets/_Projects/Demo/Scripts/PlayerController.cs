@@ -12,23 +12,32 @@ public class PlayerController : MonoBehaviour
     public LayerMask whatIsGround;
 
     float _hInput;
+    float _rawInput;
     bool _isGrounded = true;
 
     Rigidbody2D _rb;
+    Animator _animator;
+    SpriteRenderer _spriteRenderer;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
         _hInput = Input.GetAxis("Horizontal");
+        _rawInput = Input.GetAxisRaw("Horizontal");
 
         CheckForGround();
 
         if (Input.GetKeyDown(KeyCode.Space) && _isGrounded)
             Jump();
+
+        FlipSprite();
+        HandleAnimation();
     }
 
     private void FixedUpdate()
@@ -54,6 +63,20 @@ public class PlayerController : MonoBehaviour
             _isGrounded = true;
         else
             _isGrounded = false;
+    }
+
+    private void FlipSprite()
+    {
+        if (_rawInput > 0f)
+            _spriteRenderer.flipX = false;
+        else if (_rawInput < 0f)
+            _spriteRenderer.flipX = true;
+    }
+
+    private void HandleAnimation()
+    {
+        _animator.SetBool("IsGrounded", _isGrounded);
+        _animator.SetBool("IsRunning", Mathf.Abs(_rawInput) > 0f);
     }
 
     private void OnDrawGizmos()
