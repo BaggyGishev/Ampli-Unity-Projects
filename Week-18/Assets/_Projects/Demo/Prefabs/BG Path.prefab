@@ -238,6 +238,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 2b587280d243b634f8fecfda3a6327e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55a06abfcd0b93742908cc603aef3671, type: 2}
     - target: {fileID: 919132149155446097, guid: 2b587280d243b634f8fecfda3a6327e9, type: 3}
       propertyPath: m_Name
       value: blue_bush1
@@ -312,6 +316,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 2b587280d243b634f8fecfda3a6327e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55a06abfcd0b93742908cc603aef3671, type: 2}
     - target: {fileID: 919132149155446097, guid: 2b587280d243b634f8fecfda3a6327e9, type: 3}
       propertyPath: m_Name
       value: blue_bush1 (2)
@@ -386,6 +394,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 2881feb7ddd34224aa785b91b26a40be, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55a06abfcd0b93742908cc603aef3671, type: 2}
     - target: {fileID: 919132149155446097, guid: 2881feb7ddd34224aa785b91b26a40be, type: 3}
       propertyPath: m_Name
       value: blue_bush3
@@ -460,6 +472,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: acc9919077e5ea04fa4ac9c3b7d5a5e2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55a06abfcd0b93742908cc603aef3671, type: 2}
     - target: {fileID: 919132149155446097, guid: acc9919077e5ea04fa4ac9c3b7d5a5e2, type: 3}
       propertyPath: m_Name
       value: blue_bush2
@@ -534,6 +550,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 2b587280d243b634f8fecfda3a6327e9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55a06abfcd0b93742908cc603aef3671, type: 2}
     - target: {fileID: 919132149155446097, guid: 2b587280d243b634f8fecfda3a6327e9, type: 3}
       propertyPath: m_Name
       value: blue_bush1 (1)
