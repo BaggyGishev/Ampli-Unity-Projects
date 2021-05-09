@@ -267,7 +267,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &49081406
 PrefabInstance:
@@ -618,7 +618,7 @@ Transform:
   - {fileID: 1012400958}
   - {fileID: 1522429191}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &467508153
 PrefabInstance:
@@ -944,7 +944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3241701139232961903, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3241701139232961903, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1336,7 +1336,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &947294876
 PrefabInstance:
@@ -2961,7 +2961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1547151345}
   m_Layer: 0
-  m_Name: Objects
+  m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2982,7 +2982,7 @@ Transform:
   - {fileID: 1189332413}
   - {fileID: 540273482}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1556068722
 PrefabInstance:
