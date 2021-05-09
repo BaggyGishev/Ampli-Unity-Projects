@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.5090335, g: 0.6132763, b: 0.8773585, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: e19adf50a9d4b374d99ba1eaa1497e60, type: 2}
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 1453998162}
   m_IndirectSpecularColor: {r: 0.071097456, g: 0.08762147, b: 0.12025983, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -918,6 +918,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3241701139232402287, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701139232402287, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701139232402287, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.38679248
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701139232402287, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.3378335
+      objectReference: {fileID: 0}
+    - target: {fileID: 3241701139232402287, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3241701139232729423, guid: 14ea26708c5cfed4b9f6813bddbd9b67, type: 3}
       propertyPath: m_Name
       value: FPSController
@@ -2859,6 +2879,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4840804657740388, guid: 0a08d9c10bffdb848829ea62ddea9a7e, type: 3}
   m_PrefabInstance: {fileID: 1448909359}
   m_PrefabAsset: {fileID: 0}
+--- !u!108 &1453998162 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 1119462519985087094, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
+  m_PrefabInstance: {fileID: 1119462520900858707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1522241830 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1119462519985087093, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
@@ -4267,9 +4292,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1119462519985087094, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119462519985087094, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.39418885
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119462519985087094, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.15659486
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119462519985087094, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1119462519985087095, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
       propertyPath: m_Name
       value: Ambient
+      objectReference: {fileID: 0}
+    - target: {fileID: 1119462519985087095, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83fd3cb445051004195e6e5a3d98d50d, type: 3}
