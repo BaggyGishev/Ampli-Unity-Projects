@@ -9,6 +9,24 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+Week-1/UserSettings/
+Week-2/UserSettings/
+Week-3/UserSettings/
+Week-4/UserSettings/
+Week-5/UserSettings/
+Week-6/UserSettings/
+Week-7/UserSettings/
+Week-8/UserSettings/
+Week-9/UserSettings/
+Week-10/UserSettings/
+Week-11/UserSettings/
+Week-12/UserSettings/
+Week-13/UserSettings/
+Week-14/UserSettings/
+Week-15/UserSettings/
+Week-16/UserSettings/
+Week-17/UserSettings/
+Week-18/UserSettings/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
